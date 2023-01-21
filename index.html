@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>ts-hw-02</title>
     <script src="app.js" defer></script>
 </head>
@@ -19,6 +20,63 @@
         <li>let notInitialize = undefined;</li>
         <li>let callback = (a) => { return 100 + a };</li>
     </ul>
-    <p>Open console in developer tools &#8594</p>
+    <h2>2) Set type for a variable into which any value can be stored:</h2>
+    <ul>
+        <li>let anything = -20;</li>
+        <li>anything = 'Text';</li>
+        <li>anything = {};</li>
+    </ul>
+    <h2> 3) Fix the code with the variable "unknown" so that it can store a variable with text</h2>
+    <ul>
+        <li>let some:unknown;</li>
+        <li>some = 'Text';</li>
+        <li>let str: string;</li>
+        <li>str = some;</li>
+    </ul>
+    <h2>4) Make an immutable array with strictly defined types:</h2>
+    <ul>
+        <li>let person = ['Max', 21];</li>
+    </ul>
+    <h2>5) Describe the <span>eunum</span> condition as follows:</h2>
+    <p> <span>eunum</span> should display the download status LOADING and READY.</p>
+    <h2>6) Make a variable that can take either a string or a number:</h2>
+    <h2>7) Make a variable that can only take one value out of two 'enable' or 'disable'</h2>
+    <h2>8) Specify types for the following functions:</h2>
+    <pre>
+        <code>function showMessage(message) {
+        console.log(message);
+        }</code>
+        <code>function calc(num1, num2) {
+        return num1 + num2;
+        }</code>
+        <code>function customError() {
+        throw new Error('Error');
+        }</code>
+    </pre>
+    <h2>Create your data type based on the data you have:</h2>
+<pre>
+    <code>
+        const page1 = {
+        title: 'The awesome page',
+        likes: 100,
+        accounts: ['Max', 'Anton', 'Nikita'],
+        status: 'open',
+        details: {
+        createAt: '2021-01-01',
+        updateAt: '2021-05-01',
+        }
+    </code>
+    <code>
+        const page2 = {
+        title: 'Python or Js',
+        likes: 5,
+        accounts: ['Alex'],
+        status: 'close',
+        }
+    </code>
+</pre>
+    
+
+    <p class="text">Open console in developer tools &#8594</p>
 </body>
 </html>

@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+pre {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-left: 30px;
+}
+body {
+    background-color: rgb(223, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p{
+    padding-left: 30px;
+} 
+.text{
+    font-style: italic;
+    font-weight: bold;
+}
